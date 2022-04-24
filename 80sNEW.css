@@ -1,0 +1,102 @@
+body{background-color:#F1E6F3;}
+h1{text-align:left; font-size:20;}
+h2{text-align:center; font-size:19;}
+img{float:right;}
+	.item1 {grid-area:question1;}
+	.item1a {grid-area:answer1a;}
+	.item1b {grid-area:answer1b;}
+	.item1c {grid-area:answer1c;}
+	.item1d {grid-area:answer1d;}
+	.item2 {grid-area:question2;}
+	.item2a {grid-area:answer2a;}
+	.item2b {grid-area:answer2b;}
+	.item2c {grid-area:answer2c;}
+	.item2d {grid-area:answer2d;}
+	.item3 {grid-area:question3;}
+	.item3a {grid-area:answer3a;}
+	.item3b {grid-area:answer3b;}
+	.item3c {grid-area:answer3c;}
+	.item3d {grid-area:answer3d;}
+	.item4 {grid-area:question4;}
+	.item4a {grid-area:answer4a;}
+	.item4b {grid-area:answer4b;}
+	.item4c {grid-area:answer4c;}
+	.item4d {grid-area:answer4d;}
+	.item5 {grid-area:question5;}
+	.item5a {grid-area:answer5a;}
+	.item5b {grid-area:answer5b;}
+	.item5c {grid-area:answer5c;}
+	.item5d {grid-area:answer5d;}
+	.item6 {grid-area:question6;}
+	.item6a {grid-area:answer6a;}
+	.item6b {grid-area:answer6b;}
+	.item6c {grid-area:answer6c;}
+	.item6d {grid-area:answer6d;}
+	.item7 {grid-area:question7;}
+	.item7a {grid-area:answer7a;}
+	.item7b {grid-area:answer7b;}
+	.item7c {grid-area:answer7c;}
+	.item7d {grid-area:answer7d;}
+	.item8 {grid-area:question8;}
+	.item8a {grid-area:answer8a;}
+	.item8b {grid-area:answer8b;}
+	.item8c {grid-area:answer8c;}
+	.item8d {grid-area:answer8d;}
+	.item9 {grid-area:question9;}
+	.item9a {grid-area:answer9a;}
+	.item9b {grid-area:answer9b;}
+	.item9c {grid-area:answer9c;}
+	.item9d {grid-area:answer9d;}
+	.item10 {grid-area:question10;}
+	.item10a {grid-area:answer10a;}
+	.item10b {grid-area:answer10b;}
+	.item10c {grid-area:answer10c;}
+	.item10d {grid-area:answer10d;}
+	
+	.grid-container {
+		display:grid;
+		grid-template-columns:2;
+		grid-template-rows:15;
+		column-gap:50px;
+		font-size: 18;
+		row-gap:10px;
+		background-color:#F1E6F3;
+		padding:1px;
+		grid-template-areas:
+			'question1 question2'
+			'answer1a answer2a'
+			'answer1b answer2b'
+			'answer1c answer2c'
+			'answer1d answer2d'
+			'question3 question4'
+			'answer3a answer4a'
+			'answer3b answer4b'
+			'answer3c answer4c'
+			'answer3d answer4d'
+			'question5 question6'
+			'answer5a answer6a'
+			'answer5b answer6b'
+			'answer5c answer6c'
+			'answer5d answer6d'
+			'question7 question8'
+			'answer7a answer8a'
+			'answer7b answer8b'
+			'answer7c answer8c'
+			'answer7d answer8d'
+			'question9 question10'
+			'answer9a answer10a'
+			'answer9b answer10b'
+			'answer9c answer10c'
+			'answer9d answer10d'
+		}		
+	
+.item1{display:grid; font-weight:bold;}
+.item2{display:grid; font-weight:bold}
+.item3{font-weight:bold}
+.item4{font-weight:bold}
+.item5{font-weight:bold}
+.item6{font-weight:bold}
+.item7{font-weight:bold}
+.item8{font-weight:bold}
+.item9{font-weight:bold}
+.item10{font-weight:bold}
