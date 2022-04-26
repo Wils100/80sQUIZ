@@ -1,12 +1,16 @@
 <!DOCTYPE html >
-<html >
+<html lang="en">
 		<head >
+							<meta charset="UTF-8">
+							<meta name="quiz" content="width=device-width, initial-scale=1.0">
+							
 							<link href="80sQUIZCSS.css" rel="stylesheet" type="text/css">
 							<script src="80sQUIZJS.js"></script> 
 							<title> 80s Quiz </title>
 							<a name="top"></a>
 							
 		</ head >
+		
 		<body >
 		<h1> 80s Music Quiz</h1>
 		<h2> Test Your Knowledge</h1>
@@ -14,69 +18,77 @@
 		<div id="recordplayer"><img src="recordplayer.PNG"/> </div>
 		
 					<div class ="grid-container">
-					<div class="item1">1. The film Bohemian Rhapsody told the story of which rock band?</div>		
-					<div class="item1a"><input type ="radio" id="Q1a" name="Bohemian" onclick="check('Bohemian')" value="incorrect"checked><label for="Q1a">Guns & Roses</label></div>
-					<div class="item1b"><input type ="radio" id="Q1b" name="Bohemian" onclick="check('Bohemian')" value="correct"checked><label for="Q1b">Queen</label></div>
-					<div class="item1c"><input type ="radio" id="Q1c" name="Bohemian" onclick="check('Bohemian')" value="incorrect"checked><label for="Q1c">AC DC</label></div>
-					<div class="item1d"><input type ="radio" id="Q1d" name="Bohemian" onclick="check('Bohemian')" value="incorrect"checked><label for="Q1d">Rolling Stones</label></div>
+					<div class="item1">1. The film Question 1 Rhapsody told the story of which rock band?</div>		
+					<div class="item1a"><input type ="radio" id="Q1a" name="Question 1" onclick="check('Question 1')" value="0"><label for="Q1a">Guns & Roses</label></div>
+					<div class="item1b"><input type ="radio" id="Q1b" name="Question 1" onclick="check('Question 1')" value="1"><label for="Q1b">Queen</label></div>
+					<div class="item1c"><input type ="radio" id="Q1c" name="Question 1" onclick="check('Question 1')" value="0"><label for="Q1c">AC DC</label></div>
+					<div class="item1d"><input type ="radio" id="Q1d" name="Question 1" onclick="check('Question 1')" value="0"><label for="Q1d">Rolling Stones</label></div>
 					<div class="item2">2. What year was Live Aid?</div>		
-					<div class="item2a"><input type ="radio" id="Q2a" name="LiveAid" onclick="check('LiveAid')" value="incorrect"checked><label for="Q2a">1984</label></div>		
-					<div class="item2b"><input type ="radio" id="Q2b" name="LiveAid" onclick="check('LiveAid')" value="correct"checked><label for="Q2b">1985</label></div>		
-					<div class="item2c"><input type ="radio" id="Q2c" name="LiveAid" onclick="check('LiveAid')" value="incorrect"checked><label for="Q2c">1986</label></div>		
-					<div class="item2d"><input type ="radio" id="Q2d" name="LiveAid" onclick="check('LiveAid')" value="incorrect"checked><label for="Q2d">1987</label></div>
+					<div class="item2a"><input type ="radio" id="Q2a" name="Question 2" onclick="check('Question 2')" value="0"><label for="Q2a">1984</label></div>		
+					<div class="item2b"><input type ="radio" id="Q2b" name="Question 2" onclick="check('Question 2')" value="1"><label for="Q2b">1985</label></div>		
+					<div class="item2c"><input type ="radio" id="Q2c" name="Question 2" onclick="check('Question 2')" value="0"><label for="Q2c">1986</label></div>		
+					<div class="item2d"><input type ="radio" id="Q2d" name="Question 2" onclick="check('Question 2')" value="0"><label for="Q2d">1987</label></div>
 					<div class="item3">3. What was the biggest selling single of the 80s in the UK?</div>		
-					<div class="item3a"><input type ="radio" id="Q3a" name="Hit" onclick="check('Hit')" value="incorrect" checked><label for="Q3a">I want to Break Free</label></div>		
-					<div class="item3b"><input type ="radio" id="Q3b" name="Hit" onclick="check('Hit')" value="incorrect"checked><label for="Q3b">Woman In Love</label></div>		
-					<div class="item3c"><input type ="radio" id="Q3c" name="Hit" onclick="check('Hit')" value="incorre"checked><label for="Q3c">Careless Whisper</label></div>		
-					<div class="item3d"><input type ="radio" id="Q3d" name="Hit" onclick="check('Hit')" value="correct"checked><label for="Q3d">Do They Know It’s Christmas? – Band Aid</label></div>	
-					<div class="item4">	4. What was the name of the supergroup formed by Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty in 1888?</div>		
-					<div class="item4a"><input	type ="radio" id="Q4a" name="supergroup" onclick="check('supergroup')" value="incorrect" checked><label for="Q4a">Yes</label></div>		
-					<div class="item4b"><input 	type ="radio" id="Q4b" name="supergroup" onclick="check('supergroup')" value="correct" checked><label for="Q4b">Traveling Wilburys</label></div>		
-					<div class="item4c"><input 	type ="radio" id="Q4c" name="supergroup" onclick="check('supergroup')" value="incorrect" checked><label for="Q4c">Journey</label></div>		
-					<div class="item4d"><input 	type ="radio" id="Q4d" name="supergroup" onclick="check('supergroup')" value="incorrect" checked><label for="Q4d">Whitesnake</label></div>
-					<div class="item5">	5. Madonna's first Number One UK Hit</div>		
-					<div class="item5a"><input	type ="radio" id="Q5a" name="Madonna" onclick="check('Madonna')" value="incorrect" checked><label for="Q5a">Crazy For You</label></div>	
-					<div class="item5b"><input 	type ="radio" id="Q5b" name="Madonna" onclick="check('Madonna')" value="incorrect" checked><label for="Q5b">Papa Don't Preach</label></div>		
-					<div class="item5c"><input 	type ="radio" id="Q5c" name="Madonna" onclick="check('Madonna')" value="correct" checked><label for="Q5c">Into The Groove</label></div>		
-					<div class="item5d"><input 	type ="radio" id="Q5d" name="Madonna" onclick="check('Madonna')" value="incorrect" checked><label for="Q5d">Borderline</label></div>
-					<div class="item6">6. Which song was <u>not</u> performed by Phil Collins?</div>		
-					<div class="item6a"><input	type ="radio" id="Q6a" 	name="Phil" onclick="check('Phil')" value="incorrect" checked><label for="Q6a">In the Air Tonight</label></div>		
-					<div class="item6bd"><input type ="radio" id="Q6b" name="Phil" onclick="check('Phil')" value="incorrect" checked><label for="Q6b">Against All Odds</label></div>		
-					<div class="item6c"><input 	type ="radio" id="Q6c"  name="Phil" onclick="check('Phil')" value="correct" checked><label for="Q6">Born To Run</label></div>		
-					<div class="item6d"><input 	type ="radio" id="Q6d" name="Phil" onclick="check('Phil')" value="incorrect" checked><label for="Q6d">Another Day in Paradise</label></div>
-					<div class="item7">7. Three members of Duran Duran all share the same surname - what is it?</div>		
-					<div class="item7a"><input	type ="radio" id="Q7a" name="Duran" onclick="check('Duran')" value="incorrect" checked><label for="Q7">Le Bon</label></div>		
-					<div class="item7b"><input 	type ="radio" id="Q7b" name="Duran" onclick="check('Duran')" value="correct" checked><label for="Q7b">Taylor</label></div>		
-					<div class="item7c"><input 	type ="radio" id="Q7c" name="Duran" onclick="check('Duran')" value="incorrect"	checked><label for="Q7c">Rhodes</label></div>		
-					<div class="item7d"><input 	type ="radio" id="Q7d" name="Duran" onclick="check('Duran')" value="incorrect" checked><label for="Q7d">Duffy</label></div>
-					<div class="item8">	8. Who wrote the song Edge of Seventeen?</div>		
-					<div class="item8a"><input	type ="radio" id="Q8a" name="Seventeen" onclick="check('Seventeen')" value="incorrect" checked><label for="Q8a">Annie Lennox</label></div>		
-					<div class="item8b"><input 	type ="radio" id="Q8b" name="Seventeen" onclick="check('Seventeen')" value="correct" checked><label for="Q8b">Stevie Nicks</label></div>		
-					<div class="item8c"><input 	type ="radio" id="Q8c" name="Seventeen" onclick="check('Seventeen')" value="incorrect" checked><label for="Q8c">Kate Bush</label></div>		
-					<div class="item8d"><input 	type ="radio" id="Q8d" name="Seventeen" onclick="check('Seventeen')" value="incorrect"	checked><label for="Q8d">Diana Ross</label></div>
-					<div class="item9">9. What was the bass guitarist for Fleetwood Mac?</div>		
-					<div class="item9a"><input	type ="radio" id="Q9a" name="guitarist" onclick="check('guitarist')" value="incorrect" checked><label for="Q9a">Mick Fleetwood</label></div>		
-					<div class="item9b"><input 	type ="radio" id="Q9b" name="guitarist" onclick="check('guitarist')" value="incorrect"	checked><label for="Q9b">Stevie Nicks</label></div>		
-					<div class="item9c"><input 	type ="radio" id="Q9c" name="guitarist" onclick="check('guitarist')" value="correct"	checked><label for="Q9c">John McVie</label></div>		
-					<div class="item9d"><input 	type ="radio" id="Q9d" name="guitarist" onclick="check('guitarist')" value="incorrect"	checked><label for="Q9d">Christine McVie</label></div>
-					<div class="item10">10. What was the best selling album of the 1880's in UK?</div>		
-					<div class="item10a"><input	type ="radio" id="Q10a" name="album" onclick="check('album')" value="incorrect" checked><label for="Q10a">Queen - Greatest Hits</label></div>		
-					<div class="item10b"><input 	type ="radio" id="Q10b" name="album" onclick="check('album')" value="incorrect" checked><label for="Q10b">Michael Jackson - Thriller</label></div>		
-					<div class="item10c"><input 	type ="radio" id="Q10c" name="album" onclick="check('album')" value="incorrect" checked><label for="Q10c">Fleetwood Mac - Tango In the Night</label></div>		
-					<div class="item10d"><input 	type ="radio" id="Q10d" name="album" onclick="check('album')" value="correct" checked><label for="Q10d">Dire Straits - Brothers In Arms</label></div>		
-					<div class="item11"><button type="button" onclick=" checkButton()">Submit</button></div> 
-					<div class="item12"><button type="button">Re-Take</button></div>
+					<div class="item3a"><input type ="radio" id="Q3a" name="Question 3" onclick="check('Question 3')" value="0" ><label for="Q3a">I want to Break Free</label></div>		
+					<div class="item3b"><input type ="radio" id="Q3b" name="Question 3" onclick="check('Question 3')" value="0"><label for="Q3b">Woman In Love</label></div>		
+					<div class="item3c"><input type ="radio" id="Q3c" name="Question 3" onclick="check('Question 3')" value="0"><label for="Q3c">Careless Whisper</label></div>		
+					<div class="item3d"><input type ="radio" id="Q3d" name="Question 3" onclick="check('Question 3')" value="1"><label for="Q3d">Do They Know It’s Christmas? – Band Aid</label></div>	
+					<div class="item4">	4. What was the name of the Question 4 formed by Bob Dylan, George Harrison, Jeff Lynne, Roy Orbison and Tom Petty in 1888?</div>		
+					<div class="item4a"><input	type ="radio" id="Q4a" name="Question 4" onclick="check('Question 4')" value="0" ><label for="Q4a">Yes</label></div>		
+					<div class="item4b"><input 	type ="radio" id="Q4b" name="Question 4" onclick="check('Question 4')" value="1" ><label for="Q4b">Traveling Wilburys</label></div>		
+					<div class="item4c"><input 	type ="radio" id="Q4c" name="Question 4" onclick="check('Question 4')" value="0" ><label for="Q4c">Journey</label></div>		
+					<div class="item4d"><input 	type ="radio" id="Q4d" name="Question 4" onclick="check('Question 4')" value="0" ><label for="Q4d">WQuestion 3esnake</label></div>
+					<div class="item5">	5. Question 5's first Number One UK Question 3</div>		
+					<div class="item5a"><input	type ="radio" id="Q5a" name="Question 5" onclick="check('Question 5')" value="0" ><label for="Q5a">Crazy For You</label></div>	
+					<div class="item5b"><input 	type ="radio" id="Q5b" name="Question 5" onclick="check('Question 5')" value="0" ><label for="Q5b">Papa Don't Preach</label></div>		
+					<div class="item5c"><input 	type ="radio" id="Q5c" name="Question 5" onclick="check('Question 5')" value="1" ><label for="Q5c">Into The Groove</label></div>		
+					<div class="item5d"><input 	type ="radio" id="Q5d" name="Question 5" onclick="check('Question 5')" value="0" ><label for="Q5d">Borderline</label></div>
+					<div class="item6">6. Which song was <u>not</u> performed by Question 6 Collins?</div>		
+					<div class="item6a"><input	type ="radio" id="Q6a" 	name="Question 6" onclick="check('Question 6')" value="0" ><label for="Q6a">In the Air Tonight</label></div>		
+					<div class="item6bd"><input type ="radio" id="Q6b" name="Question 6" onclick="check('Question 6')" value="0" ><label for="Q6b">Against All Odds</label></div>		
+					<div class="item6c"><input 	type ="radio" id="Q6c"  name="Question 6" onclick="check('Question 6')" value="1" ><label for="Q6">Born To Run</label></div>		
+					<div class="item6d"><input 	type ="radio" id="Q6d" name="Question 6" onclick="check('Question 6')" value="0" ><label for="Q6d">Another Day in Paradise</label></div>
+					<div class="item7">7. Three members of Question 7 Question 7 all share the same surname - what is it?</div>		
+					<div class="item7a"><input	type ="radio" id="Q7a" name="Question 7" onclick="check('Question 7')" value="0" ><label for="Q7">Le Bon</label></div>		
+					<div class="item7b"><input 	type ="radio" id="Q7b" name="Question 7" onclick="check('Question 7')" value="1" ><label for="Q7b">Taylor</label></div>		
+					<div class="item7c"><input 	type ="radio" id="Q7c" name="Question 7" onclick="check('Question 7')" value="0"	><label for="Q7c">Rhodes</label></div>		
+					<div class="item7d"><input 	type ="radio" id="Q7d" name="Question 7" onclick="check('Question 7')" value="0" ><label for="Q7d">Duffy</label></div>
+					<div class="item8">	8. Who wrote the song Edge of Question 8?</div>		
+					<div class="item8a"><input	type ="radio" id="Q8a" name="Question 8" onclick="check('Question 8')" value="0" ><label for="Q8a">Annie Lennox</label></div>		
+					<div class="item8b"><input 	type ="radio" id="Q8b" name="Question 8" onclick="check('Question 8')" value="1" ><label for="Q8b">Stevie Nicks</label></div>		
+					<div class="item8c"><input 	type ="radio" id="Q8c" name="Question 8" onclick="check('Question 8')" value="0" ><label for="Q8c">Kate Bush</label></div>		
+					<div class="item8d"><input 	type ="radio" id="Q8d" name="Question 8" onclick="check('Question 8')" value="0"	><label for="Q8d">Diana Ross</label></div>
+					<div class="item9">9. What was the bass Question 9 for Fleetwood Mac?</div>		
+					<div class="item9a"><input	type ="radio" id="Q9a" name="Question 9" onclick="check('Question 9')" value="0" ><label for="Q9a">Mick Fleetwood</label></div>		
+					<div class="item9b"><input 	type ="radio" id="Q9b" name="Question 9" onclick="check('Question 9')" value="0"	><label for="Q9b">Stevie Nicks</label></div>		
+					<div class="item9c"><input 	type ="radio" id="Q9c" name="Question 9" onclick="check('Question 9')" value="1"	><label for="Q9c">John McVie</label></div>		
+					<div class="item9d"><input 	type ="radio" id="Q9d" name="Question 9" onclick="check('Question 9')" value="0"	><label for="Q9d">Christine McVie</label></div>
+					<div class="item10">10. What was the best selling Question 10 of the 1880's in UK?</div>		
+					<div class="item10a"><input	type ="radio" id="Q10a" name="Question 10" onclick="check('Question 10')" value="0" ><label for="Q10a">Queen - Greatest Question 3s</label></div>		
+					<div class="item10b"><input type ="radio" id="Q10b" name="Question 10" onclick="check('Question 10')" value="0" ><label for="Q10b">Michael Jackson - Thriller</label></div>		
+					<div class="item10c"><input type ="radio" id="Q10c" name="Question 10" onclick="check('Question 10')" value="0" ><label for="Q10c">Fleetwood Mac - Tango In the Night</label></div>		
+					<div class="item10d"><input type ="radio" id="Q10d" name="Question 10" onclick="check('Question 10')" value="1" ><label for="Q10d">Dire Straits - Brothers In Arms</label></div>		
+					<div class="item11"><button type="button" id="Submit" onclick = "displayScore()">Submit</button></div> 
+							
+					 					 
+					<div class="item12"><button type="button"  >Re-Take</button></div>
 					<div class="item13"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.7.0/css/font-awesome.min.css">
 
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star "></span>
+							<span class="fa fa-star "></span>
+							<span class="fa fa-star "></span>
 							<span class="fa fa-star"></span>
 							<span class="fa fa-star"></span>
 				</div>
+					<div id="total"></div>	
+				
 					<div><class="footer"><a href="#top">Return to the top of this page</a></div>
+	
+	 
 	 </body>
 	</html>
+	
+	
 	  
 	 
 		   

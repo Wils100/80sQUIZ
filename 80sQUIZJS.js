@@ -1,26 +1,21 @@
-//80sQUIZJS.js
 
-if(document.getElementById('summer').checked) {   
-       var selectedValue = document.getElementById('summer').value;  
-       alert("Selected Radio Button is: " + selectedValue);    
-}  
-
-document.querySelector('input[name="Bohemian"]:checked')  
-
-function checkButton() {    
-            if(document.getElementById('Bohemian').checked) {   
-                document.getElementById("disp").innerHTML   
-                    = document.getElementById("correct").value   
-                    + " radio button is checked";   
-            }    
-			
-			var score=0;
-function check (name) {
-   var methods = document.getElementsByName(name);
-    for (var i=0; i<methods.length; i++) {
-         if (methods[i].checked == true) {
-             score +=1;
-             alert(score);
+        function displayScore() {
+            document.getElementById("total").innerHTML = "";
+            var ele = document.getElementsByTagName('input');
+              
+            for(i = 0; i < ele.length; i++) {
+                  
+                if(ele[i].type="radio") {
+                  
+                    if(ele[i].checked)
+                        document.getElementById("total").innerHTML
+                                += ele[i].name + " Your Score: "
+                                + ele[i].value + "<br>";
+								
+                }
             }
-   }
-}
+        }
+ 
+
+
+
