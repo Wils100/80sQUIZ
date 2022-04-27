@@ -10,7 +10,7 @@
                 if(ele[i].type="radio") 
 				{
                   
-                    if(ele[i].checked)
+                    if(ele[i].checked) 
                         document.getElementById("total").innerHTML
                                 += ele[i].name + " Your Score: "
                                 + ele[i].value + "<br>";
